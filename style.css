@@ -143,13 +143,35 @@ h1{
     margin-bottom: 2px;
 }
 .follow-us a{
-    padding:10px 30px;
+    padding:15px 30px 0;
     color: #000;
+   
 
 }
+.follow-us a img{
+     width:60px;
+     height:60px;
+}
 
-.follow-us a:hover{
-    color: var(--color-orange);
+.icon-1:hover{
+    content:url(images/icons/Facebook.png) ;
+    height:60px;
+    width:60px;
+}
+.icon-2:hover{
+    content:url(images/icons/Instagram.png) ;
+    height:60px;
+    width:60px;
+}
+.icon-3:hover{
+    content:url(images/icons/Youtube.png) ;
+    height:60px;
+    width:60px;
+}
+.icon-4:hover{
+    content:url(images/icons/Github.png) ;
+    height:60px;
+    width:60px;
 }
 
 /* ------Footer------ */
