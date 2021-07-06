@@ -2,14 +2,17 @@
     --color-orange: #FFA500;
     --color-tomato: #ff6347;
     --color-white: #fff;
+    --color-pink: #FCDECD;
+    --color-gray:#5B5B5B;
+    --color-black: #000;
     
 }
 
 body{
-   
-    margin: 0;
+    
     font-family: 'Poppins', sans-serif;
-
+    padding:0;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -33,6 +36,29 @@ h1{
     font-size: 50px;
     line-height: 20px;
 }
+/* -------Header-------- */
+header{
+    background-color:var(--color-pink) ;
+    
+}
+header nav ul{
+    justify-content: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+header nav ul li a{
+    color: #000;
+    display: block;
+    padding: 30px ;
+    
+}
+
+header nav ul li a:hover{
+    color: var(--color-tomato);
+    border-bottom:3px solid var(--color-tomato);
+}
+
 /* ---------------------Top Banner-------------------------- */
 .title-orange{
     color:var(--color-orange);
@@ -61,7 +87,7 @@ h1{
 
 #about-me{
     height: 500px;
-    background-color:#FEF3ED;
+    background-color:var(--color-pink);
     background-image: url(images/shapes/7.png);
     background-size: cover;
     background-position:left;
@@ -75,6 +101,11 @@ h1{
     
 }
 
+.description{
+    display: inline-block;
+    margin-right:180px ;
+    text-align: justify;
+}
 
 /* --------------My Recipies--------------- */
 
@@ -138,17 +169,18 @@ h1{
    text-align: center;
 }
 
-.follow-us p{
+#follow-us p{
     text-align: center;
     margin-bottom: 2px;
+    font-weight: bold;
 }
-.follow-us a{
+#follow-us a{
     padding:15px 30px 0;
     color: #000;
    
 
 }
-.follow-us a img{
+#follow-us a img{
      width:60px;
      height:60px;
 }
@@ -176,11 +208,11 @@ h1{
 
 /* ------Footer------ */
 footer{
-    background-color: #000 ;
-    color: #fff;
+    background-color: var(--color-black) ;
+    color: var(--color-white);
     text-align: center;
     padding: 30px;
 }
 footer h2{
-    color:#5B5B5B
+    color:var(--color-gray);
 }
